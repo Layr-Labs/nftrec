@@ -1,9 +1,9 @@
 /*----------------------------------------
 [Master Stylesheet]
 
-Project:	Artix HTML Template
+Project:	NFTREC HTML Template
 Version:	1.0.1
-Primary use:	Artix HTML Template
+Primary use:	NFTREC HTML Template
 ----------------------------------------*/
 /*----------------------------------------
 [Table of contents]
@@ -1831,7 +1831,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 .home__title span {
-  color: #15364D;
+  color: #f1f1f1;
 }
 .home__text {
   position: relative;
@@ -2500,7 +2500,7 @@ body::-webkit-scrollbar-thumb {
 /*==============================
 	Asset
 ==============================*/
-.asset__item { 
+.asset__item {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -5649,9 +5649,9 @@ body::-webkit-scrollbar-thumb {
 
 .columnscarousel{
 
-  display: flex; 
-  background-color: #eee; 
+  display: flex;
+  background-color: #eee;
   width: auto;
-  height: auto; 
-  column-gap: 20px;  
+  height: auto;
+  column-gap: 20px;
 }

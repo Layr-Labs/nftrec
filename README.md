@@ -1,2 +1,2 @@
-# artix-web
+# NFTREC-web
 Test

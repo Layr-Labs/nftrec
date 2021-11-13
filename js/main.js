@@ -1,23 +1,23 @@
 $(document).ready(function () {
 	"use strict"; // start of use strict
 
-	window.onload = function() {
-        console.log("Get Data here bro");
-        fetch('http://localhost:8000/nfts/')
-            .then(response => {
-                response.json().then(json => {
-                    console.log(json)
-                    const nftListArray = json.results
-                })
-                
-                
-                // handle the response
-            })
-            .catch(error => {
-                // handle the error
-                console.log(error)
-            });
-    };
+	// window.onload = function() {
+  //       console.log("Get Data here bro");
+  //       fetch('https://api.nftrec.io/api/nfts/')
+  //           .then(response => {
+  //               response.json().then(json => {
+  //                   console.log(json)
+  //                   const nftListArray = json.results
+  //               })
+	//
+	//
+  //               // handle the response
+  //           })
+  //           .catch(error => {
+  //               // handle the error
+  //               console.log(error)
+  //           });
+  //   };
 
 
 	/*==============================
